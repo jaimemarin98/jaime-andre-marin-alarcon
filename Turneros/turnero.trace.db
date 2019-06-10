@@ -1,0 +1,12 @@
+2019-06-10 01:43:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+SELECT IDENTIFICACION FROM users WHERE IDENTIFICACION <> IDENTIFICACION [42102-199]
+2019-06-10 01:43:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ATENDEDOR" no encontrada
+Table "ATENDEDOR" not found; SQL statement:
+SELECT ID FROM atendedor WHERE ID <> ID [42102-199]
+2019-06-10 01:43:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "TURNO" no encontrada
+Table "TURNO" not found; SQL statement:
+SELECT CODIGO FROM turno WHERE CODIGO <> CODIGO [42102-199]
